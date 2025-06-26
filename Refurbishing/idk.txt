@@ -1,0 +1,8 @@
+auto open powershell and fix alt tab
+remember MDOS credentials
+wifi password
+
+
+
+run on startup from server
+
