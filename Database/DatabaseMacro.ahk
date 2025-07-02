@@ -233,8 +233,8 @@ SendMode Input  ; Your preferred send mode
 		if (Clipboard = "http://173.183.250.6:5014/ComputersPages/Refurb%20Computer/RefurbishedComputerList.aspx") {
 			Send, {F5}
 		} else {
-			MsgBox, "Something went wrong"
 			Progress, Off
+			MsgBox, "Something went wrong"
 			Return
 		}
 
