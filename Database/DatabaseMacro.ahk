@@ -209,7 +209,9 @@ SendMode Input  ; Your preferred send mode
 		Sleep, 100
 		Clipboard := COA
 		Sleep, 100
-		Send, ^v
+		if ((OS != "Windows 11") and (OS != "Windows 10")) {
+			Send, ^v
+		}
 
 		; submit
 		Sleep, 100
