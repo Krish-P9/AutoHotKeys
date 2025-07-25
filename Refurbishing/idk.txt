@@ -1,8 +1,15 @@
-auto open powershell and fix alt tab
-remember MDOS credentials
-wifi password
+Database Macro:
+
+Fix the messagebox after computers have been added to order
+
+
+Make a macro to get the serial number of the computer
 
 
 
-run on startup from server
+Refurbish Macro:
+
+MDOS credentials, can just select "remember credentials" with 'tab' and 'space' then can press 'enter' to login instead of the pressing 'tab' and 'space' again 
+
+Sysprep scripts, can just manually run the command by storing it in the code instead of copying and pasting from the script files on the server
 
