@@ -3,10 +3,10 @@
 SendMode Input  ; Your preferred send mode
 
 
-XButton2::
+!XButton2::
 	Send, ^c
 Return
 
-XButton1::
+!XButton1::
 	Send, ^v
 Return
