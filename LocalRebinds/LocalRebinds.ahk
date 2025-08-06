@@ -20,9 +20,21 @@ XButton1::
 	Send, ^v
 Return
 
-#Suspend, [Off]
-F10::Volume_Down
+F10::
+	Suspend, Off
+	Send, {Volume_Down}
+	Suspend, On
+Return
 
-F11::Volume_Up
+F11::
+	Suspend, Off	
+	Send, {Volume_Up}
+	Suspend, On
+Return
 
-F12::Volume_Mute
+F12::
+	Suspend, Off	
+	Send, {Volume_Mute}
+	Suspend, On
+Return
+

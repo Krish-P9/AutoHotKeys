@@ -11,7 +11,7 @@ F2::
 Return
 	
 
-
+#SuspendExempt False
 XButton2::
 	Send, ^c
 Return
@@ -20,8 +20,11 @@ XButton1::
 	Send, ^v
 Return
 
-#Suspend, [Off]
-F10::Volume_Down
+#SuspendExempt
+F10::
+	Volume_Down
+Return
+
 
 F11::Volume_Up
 
