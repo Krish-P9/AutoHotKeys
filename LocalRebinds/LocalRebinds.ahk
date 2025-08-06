@@ -45,6 +45,7 @@ F9::
 Return
 
 F8::
+	Suspend, Off
 	MinMax = WinGetMinMax("UFC")
 
 	if (!WinActive("UFC")) {
@@ -54,4 +55,5 @@ F8::
 		WinActivate, UFC
 		WinMinimize, UFC
 	}
+	Suspend, On
 Return
