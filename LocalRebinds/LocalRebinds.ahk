@@ -38,3 +38,8 @@ F12::
 	Suspend, On
 Return
 
+F9::
+	Suspend, Off
+	Send, {Media_Play_Pause}
+	Suspend, On
+Return
