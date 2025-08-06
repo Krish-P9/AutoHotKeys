@@ -43,3 +43,11 @@ F9::
 	Send, {Media_Play_Pause}
 	Suspend, On
 Return
+
+F8::
+	if WinActive("UFC") {
+		WinMinimize
+	} else {
+		WinMaximize, UFC
+	}
+Return
