@@ -45,9 +45,13 @@ F9::
 Return
 
 F8::
-	if WinActive("UFC") {
-		WinMinimize
-	} else {
+	MinMax = WinGetMinMax("UFC")
+
+	if (!WinActive("UFC")) {
+		WinActivate, UFC
 		WinMaximize, UFC
+	} else if (MinMax) {
+		WinActivate, UFC
+		WinMinimize, UFC
 	}
 Return
