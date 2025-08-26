@@ -1,0 +1,41 @@
+DatabaseMacro Instructions:
+
+This is a macro you can use to add the computers to the refurbished computers database, and add computers to your order.
+
+To use this macro simply run the DatabaseMacro.exe, you don't need to run as admin. To check if the macro is running just check the system tray for the logo (Green H), you might have to press the arrow (^) to see it. Ensure that that the refurbish computers tab and the google spread sheet is in the same window, and the refurbish computers is the first tab and the google sheets is the second tab.
+
+In the google sheet make sure you input the exact keyword for each section
+
+Optical Drive - None or DVD Read/Write, the macro only checks the first 3 letters of each of these, so if the optical drive is not None or DVD Read and Write you will have to manually change it after the macro is run
+
+OS - Windows 11, Windows 10, Linux, or None, if the OS is not one of these you will have to manually change it.
+
+
+
+Macro Keybinds:
+
+Alt + R: Adds the computers from the google sheets into the refurbish computers. To use this macro, open a new refurbuish computer in the first tab, and the cursor should automatically be in the "Hard Drive Barcodes:", then open the google spread sheet in the second tab and have the "Serial #" of the first computer selected. Then simply press the keybind (Alt + R) and enter the number of computers you want to refurbish. 
+
+The macro will copy the values of the computer one by one and then switch the refurbish computer tab and paste all the values, it will then submit and then check the URL to ensure the computer was refurbished properly, then it will switch back to the spreadsheet and repeat for the remaining computers. If at any point the macro does not behave as intended, simply press the keybind for the killswitch (Alt + 0), you might have to spam it sometimes.
+
+IMPORTANT: For this macro I assumed the "Type, Brand, and Model" that autofills on the Computer Refurbish page is correct, so I didn't change those values. I also only coded it to check for windows 10 or 11 and the i series for the CPU, if any of these values are different from what they should be then you will have to manually change it. At the end make sure the correct information is entered before adding to order.
+
+
+
+
+Alt + O: Adds the computers from the google sheet into your order. To use this macro, again have the orders page open in the first tab with the cursor in the "Item Barcode" selected. Then in the second tab, have the "Computer Barcode" of the first computer selected. Next just press the keybind and enter the number of computers you want to add to order.
+
+The macro will simply copy the barcode of the computer, switch tabs and then paste and enter the barcode, and then switch back to the google spreadsheet to enter the remaining values. If the macro does not behave as intended, press the keybind for the kill switch.
+
+
+
+
+Alt + 0: Kill switch. Press this at any time to stop the program. 
+IMPORTANT: If this doesn't work, you will have to manually close the program by right clicking on the AutoHotKey icon (Green H) in your system tray and press exit.
+
+
+
+If at any point the macro does not work anymore simply refer to this video:
+https://youtu.be/L3wKzyIN1yk?t=126
+
+
