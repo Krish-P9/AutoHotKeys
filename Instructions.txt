@@ -39,3 +39,7 @@ If at any point the macro does not work anymore simply refer to this video:
 https://youtu.be/L3wKzyIN1yk?t=126
 
 
+If you actually need help fixing the code the files should be in the "Database(updated)" which is found in "Other files", the folder in the same subfolder as the .exe is empty, (I couldn't delete it). The file called DataBaseMacro.ahk is the actual code. I just used deepseek to learn how to code in autohotkeys and then coded the scripts, I would recommend doing the same by learning the code instead of just asking AI to do everything for you. I would also try to avoid directly giving the AI company information.
+
+I also have GitHub repo for all the scripts and have an exact copy of the server files: https:
+//github.com/Krish-P9/AutoHotKeys
