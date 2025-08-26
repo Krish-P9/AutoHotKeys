@@ -1,0 +1,26 @@
+DatabaseMacro Instructions:
+
+This is a macro you can use to add the computers to the refurbished computers database, and add computers to your order.
+
+To use this macro simply run the DatabaseMacro, you don't need to run as admin. Ensure that that the refurbish computers and the google spread sheet is in the same window, and the refurbish computers is the first tab and the google sheets is the second tab.
+
+In the google sheet make sure you input the exact keyword for each section
+
+Optical Drive - None or DVD Read/Write, the macro only checks the first 3 letters of each of these, so if the optical drive is not None or DVD Read and Write you will have to manually change it after the macro is run
+
+OS - Windows 11, Windows 10, Linux, or None, if the OS is not one of these you will have to manually change it.
+
+
+
+Macro Keybinds:
+
+Alt + R: Adds the computers from the google sheets into the refurbish computers. To use this macro, open a new refurbuish computer in the first tab, and the cursor should automatically be in the "Hard Drive Barcodes:", then open the the google spread sheet in the second tab and have the "Serial #" of the first computer selected. Then simply press the macro and enter the number of computers you want to refurbish.
+
+IMPORTANT: For this macro I assumed the "Type, Brand, and Model" of the Computer that is already there is correct, so I did change those values. I also only coded it to check for windows 10 or 11 and the i series for the CPU, if any of these are different then you will have to manually change it. At the end make sure you make sure the correct information is entered before adding to order.
+
+
+Alt + O: Adds the computers from the google sheet into your order. To use this macro, again have the orders page open in the first tab with the cursor in the "Item Barcode" selected. Then in the second tab, have the "Computer Barcode" of the first computer selected. Next just press the keybind and enter the number of computers you want to add to order.
+
+
+Alt + 0: Kill switch. Press this at any time to stop the program. 
+IMPORTANT: If this doesn't work, you will have to manually close the program by right clicking on the AutoHotKey icon in your system tray and press exit.

@@ -1,0 +1,34 @@
+Macro Instructions (v3.2):
+
+This is a macro that you can use when refurbishing laptops and desktops
+
+To use this macro simply run the Macro(v3.2).exe AS ADMIN, you only have to run this once, now a local copy of the macro will be on the desktop and it will also be in the startup folder.
+Once you run this the first time, the program should automatically run as admin every time you restart the system, you might get a prompt asking to run the program as admin and it might ask for your credentials (acfs\...) everytime you restart the device.
+Once you see the AutoHotKey icon in the system tray (bottom left) the script is active
+
+
+
+
+Macro Keybinds:
+
+Alt + 0 : This is the kill switch, if at any point the macro is not working as intended, press this keybind and the macro will close and be deleted from the startup folder, to use the macro again you will need to rerun the macro either from the system desktop (if it is there) or from edmnas
+
+Alt + L : Login Credentials (this version uses acfs\KrishP), just press the keybinds when you are prompted for credentials
+	
+
+Alt + M : Login Credentials for MDOS, just press the keybind when prompted for MDOS credentials (should only be prompted once)
+
+Alt + W : Wifi password, just press the keybind when prompted for wifi password
+
+Alt + U : Checks for windows update, just press this keybind whenever you want to check for updates. The macro opens the update settings and automatically presses "Check for updates" after 7 seconds, if the device takes longer than 7 seconds to open the update settings then you will have to manually press "Check for updates"
+
+Alt + E : Removes the local copy of the macro from the desktop, and deletes it from the startup folder.
+
+Alt + S : Runs the sysprep scripts, to use this macro correctly make sure you only have 1 window open which should be file explorer, also make sure you are in the scripts folder and can see the 3 scripts, now DON'T PRESS ANYTHIHG and just press the keybind. You will be prompted to run powershell as admin, the macro will pause until you CLICK WITH YOUR MOUSE, so dont miss the "yes" button. If at any point the macro messes up just press the keybind for the kill switch (Alt + 0) and either try again after running the macro again or you can do it manually. 
+If this macro opens powershell and then does nothing, it means that the macro wasn't launched as admin, if this happens just hit the kill switch (Alt + 0) and then run the macro again as admin from the desktop
+
+
+When you are done everything and need to sysprep after the scripts were run, when you press Alt + E if at any point the device restarted while the macro was active, you might have to manually delete the macro from the desktop before sysprepping. To delete the macro without it going to recycle bin, select the macro on the desktop and press Shift + Del, this will permanently delete the macro from the device.
+
+
+If you have any issues or questions about the macro just lmk.
